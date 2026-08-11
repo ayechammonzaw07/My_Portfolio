@@ -43,7 +43,7 @@
                                 <div class="text-end">
                                     <span class="badge bg-success px-3 py-2">
                                         <i class="bi bi-calendar3 me-1"></i>
-                                        January 2026 – Present
+                                        January 2026 – July 2026
                                     </span>
                                 </div>
                             </div>
