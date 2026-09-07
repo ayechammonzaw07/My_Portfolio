@@ -4,12 +4,6 @@
 
 @section('content')
 
-    {{-- ============================================================ --}}
-    {{-- HERO SECTION                                                 --}}
-    {{-- Full-screen landing section with name, title, short intro, --}}
-    {{-- and action buttons. Uses a clean white background with     --}}
-    {{-- blue accent color for visual hierarchy.                    --}}
-    {{-- ============================================================ --}}
     <section class="hero-section" id="home">
         <div class="container">
             <div class="row align-items-center min-vh-100">
@@ -17,9 +11,9 @@
                     {{-- Greeting and name --}}
                     <p class="hero-greeting text-muted mb-3">Hello, I'm</p>
                     <h1 class="hero-name fw-bold mb-3">Aye Cham Mon Zaw</h1>
-                    <h2 class="hero-title mb-4">Junior PHP Laravel Developer</h2>
+                    <h2 class="hero-title mb-4">Junior Software Developer</h2>
 
-                    {{-- Short professional introduction --}}
+                    {{-- Short introduction --}}
                     <p class="hero-intro lead mb-5">
                         I develop responsive web applications using PHP, Laravel, MySQL, JavaScript, and Bootstrap. I enjoy
                         building clean backend systems, solving problems, and continuously improving my development skills.
@@ -27,7 +21,7 @@
 
                     {{-- Action buttons --}}
                     <div class="hero-buttons d-flex flex-wrap justify-content-center gap-3">
-                        <a href="{{ asset('AyeChamMonZaw RESUME.pdf') }}" class="btn btn-primary btn-lg px-4" download>
+                        <a href="{{ asset('resume.pdf') }}" class="btn btn-primary btn-lg px-4" download>
                             <i class="bi bi-download me-2"></i>Download Resume
                         </a>
                         <a href="{{ route('projects') }}" class="btn btn-outline-primary btn-lg px-4">
@@ -47,11 +41,7 @@
         </div>
     </section>
 
-    {{-- ============================================================ --}}
-    {{-- WHY HIRE ME PREVIEW                                          --}}
-    {{-- Quick overview cards shown on the home page to give        --}}
-    {{-- visitors an immediate sense of value.                       --}}
-    {{-- ============================================================ --}}
+    {{-- why hire me --}}
     <section class="section-padding bg-light" id="why-hire">
         <div class="container">
             <div class="text-center mb-5">

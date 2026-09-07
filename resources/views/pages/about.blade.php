@@ -4,11 +4,7 @@
 
 @section('content')
 
-    {{-- ============================================================ --}}
-    {{-- ABOUT PAGE                                                   --}}
-    {{-- Professional introduction with profile image placeholder, --}}
-    {{-- skills overview, and career summary.                       --}}
-    {{-- ============================================================ --}}
+
     <section class="page-header">
         <div class="container">
             <h1 class="page-title">About Me</h1>
@@ -26,7 +22,7 @@
                             class="profile-image-placeholder">
                     </div>
                     <h3 class="fw-bold">Aye Cham Mon Zaw</h3>
-                    <p class="text-primary fw-semibold">Junior PHP Laravel Developer</p>
+                    <p class="text-primary fw-semibold">Junior Software Developer</p>
                     <div class="d-flex justify-content-center gap-3 mt-3">
                         <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
                             class="btn btn-outline-dark btn-sm">
@@ -44,7 +40,7 @@
                     <h2 class="fw-bold mb-4">Professional Introduction</h2>
 
                     <p class="lead mb-4">
-                        I am a Junior PHP Laravel Developer with hands-on experience in building and maintaining
+                        I am a Junior Software Developer with hands-on experience in building and maintaining
                         web applications using PHP, Laravel, MySQL, and Bootstrap. I enjoy working on backend
                         systems, creating efficient solutions, and continuously expanding my technical skill set.
                     </p>
